@@ -1,0 +1,97 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# macOS
+.DS_Store
+._*
+
+# Xcode / Swift
+xcuserdata/
+*.xcuserstate
+DerivedData/
+*.dSYM
+*.dSYM.zip
+*.ipa
+.build/
+.swiftpm/
+Pods/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ML model files
+*.ckpt
+*.pth
+*.pt
+*.bin
+*.safetensors
+*.onnx
+*.pb
+*.h5
+*.tflite
+*.mlmodel
+*.mlmodelc/
+*.mlpackage/
+*.npy
+
+# Models directory
+models/*
+!models/.gitkeep
+
+# Project-specific
+old/
+app/MobileO/Resources/llm/*
+
+# Generated images
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+
+# Logs and temp
+*.log
+*.tmp
+
+# Secrets and credentials
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+*.token
+credentials.json
+secrets.json
+token.json
+serviceAccountKey.json
+**/api_key*
+**/secret_key*
+
+# Archives and backups
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.bak
+*.backup
+*.old
+*.orig

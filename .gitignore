@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+
+# IDE
+.idea/
+
+# Model weights
+*.pth
+*.pt
+*.ckpt
+*.bin
+*.safetensors
+
+# Training output
+fusion_runs/
+fusion_cache/
+test_outputs/
+
+# Logs
+*.log
+
+# Temp
+_tmp_*.py
